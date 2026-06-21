@@ -1,3 +1,5 @@
+# <p align="center"><img src="logo.png" alt="Logo Top-Down Soccer Champion" width="220"/></p>
+
 ## ĐỀ TÀI: NGHIÊN CỨU VÀ XÂY DỰNG TRÒ CHƠI BÓNG ĐÁ 2D TOP-DOWN SỬ DỤNG THƯ VIỆN PYGAME
 
 * **Sinh viên thực hiện:** LÊ VĂN CƯỜNG

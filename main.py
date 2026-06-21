@@ -11,12 +11,20 @@ import sys
 import shutil
 import os
 
-# Tự động sao chép ảnh chụp màn hình vào thư mục dự án
+# Tự động sao chép tài nguyên (screenshot & logo) vào thư mục dự án
 src_img = r"C:\Users\ADMIN\.gemini\antigravity\brain\9cf31341-6aab-4d41-8d31-46818ac19d6f\media__1782061770085.png"
 dst_img = r"d:\gameSport Py\screenshot.png"
 if os.path.exists(src_img) and not os.path.exists(dst_img):
     try:
         shutil.copy(src_img, dst_img)
+    except Exception:
+        pass
+
+src_logo = r"C:\Users\ADMIN\.gemini\antigravity\brain\9cf31341-6aab-4d41-8d31-46818ac19d6f\game_logo_1782062673886.png"
+dst_logo = r"d:\gameSport Py\logo.png"
+if os.path.exists(src_logo) and not os.path.exists(dst_logo):
+    try:
+        shutil.copy(src_logo, dst_logo)
     except Exception:
         pass
 
